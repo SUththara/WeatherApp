@@ -1,0 +1,12 @@
+https://api.openweathermap.org/data/2.5/weather?q=Colombo&appid=5fcc005417c0af1cae18949ae78e3a5a&units=metric
+
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
+
+API Key: 5fcc005417c0af1cae18949ae78e3a5a
+
+document.querySelector(".city").innerHTML=data.name;
+        document.querySelector(".temp").innerHTML=data.name;create a Weather App for Website using HTML CSS and JavaScript. We will get the current weather data from Fess API fey from OpenWeatherMap and display the weather information like Temperature,  Weather condition, Humidity and Wind Speed according to the city on our website or app.
+We will display the weather info on website from Free API using JavaScript.
+In this weather app we will add one search box where user can enter the city name and get the weather information of the particular city.
